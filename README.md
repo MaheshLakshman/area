@@ -1,3 +1,9 @@
+# Area of a Rectangle
+
+Area = Length * Breadth
+
+###### Program
+```java
 class Rectangle
 {
     private int length;
@@ -32,3 +38,27 @@ class Test extends Rectangle
         System.out.println("The Area of rectangle is: "+rect.calc());
     }
 }
+```
+#### Compile java program
+
+javac ClassName.java
+
+
+#### Run java Program
+
+java ClassName
+
+
+### Response
+
+>compile java program : javac Test.java
+
+>run java program : java Test
+
+```java
+The length is: 6
+The breadth is: 10
+The Area of rectangle is: 60
+```
+
+
