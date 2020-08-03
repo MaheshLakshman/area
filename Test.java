@@ -2,7 +2,7 @@ class Rectangle
 {
     private int length;
 
-    private int bredth;
+    private int breadth;
 
     protected void getLength(int length)
     {
@@ -10,15 +10,15 @@ class Rectangle
         System.out.println("The length is: "+ this.length);
     } 
 
-    protected void getBredth(int bredth)
+    protected void getBreadth(int breadth)
     {
-        this.bredth = bredth;
-        System.out.println("The bredth is: "+ this.bredth);
+        this.breadth = breadth;
+        System.out.println("The bredth is: "+ this.breadth);
     }
 
     protected int calc()
     {
-        return this.length * this.bredth;
+        return this.length * this.breadth;
     }
 }
 
@@ -28,7 +28,7 @@ class Test extends Rectangle
     {
         Rectangle rect = new Rectangle();
         rect.getLength(6);
-        rect.getBredth(10);
+        rect.getBreadth(10);
         System.out.println("The Are of rectangle is: "+rect.calc());
     }
 }
